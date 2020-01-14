@@ -1,48 +1,42 @@
-  <!DOCTYPE html>
-<body>
 <html>
+<body>
+
+<!DOCTYPE html>
+<>
 <head>
 <style>
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-}
-
-li {
-  float: left;
+  width: 200px;
+  background-color: #f1f1f1;
 }
 
 li a {
   display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-li a.active {
-  color: white;
-  background-color: #4CAF50;
+/* Change the link color on hover */
+li a:hover {
+  background-color:  #555;
+  color: silver;
 }
 </style>
-
+</head>
+<body>
 
 <ul>
-  <li><a class="active" href="index.html">Travis Scott</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="#contact">Rodeo</a></li>
-  <li><a href="#about">Birds in the Trap Sing McNight</a></li>
-  <li><a href="#about">Astroworld</a></li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
-
+</body>
+</html>
 
 <h1 style="font-size:55px; text-align:center; font-family:">Travis Scott Albums</h1>
  
@@ -57,40 +51,40 @@ li a.active {
   <div class="column" style="background-color:#bbb;">
     <h2>Owl Pharoah</h2>
      <ol>
-  <li>Upper Echelon</li>
-  <li>Quintana ft. Wale</li>
-  <li>Blocka La Flame</li>
+  <li class="num">Upper Echelon</li>
+  <li class="num">Quintana ft. Wale</li>
+  <li class="num">Blocka La Flame</li>
 </ol>  
   </div>
   <div class="column" style="background-color:#bbb;">
     <h2>Days Before Rodeo</h2>
     <p><ol>
-  <li>Quintana Pt.2</li>
-  <li>Drugs You Should Try It</li>
-  <li>Skyfall ft. Young Thug</li>
+  <li class="num">Quintana Pt.2</li>
+  <li class="num">Drugs You Should Try It</li>
+  <li class="num">Skyfall ft. Young Thug</li>
 </ol>  </p>
   </div>
       <div class="column" style="background-color:#bbb;">
     <h2>Rodeo</h2>
     <p><ol>
-  <li>Antidote</li>
-  <li>90210 ft. Kacy Hill</li>
-  <li>Oh My Dis Side ft. Quavo</li>
+  <li class="num">Antidote</li>
+  <li class="num">90210 ft. Kacy Hill</li>
+  <li class="num">Oh My Dis Side ft. Quavo</li>
 </ol>  </p>
   </div>
       <div class="column" style="background-color:#bbb;">
     <h2>Birds In The Trap Sing McKnight</h2>
     <p><ol>
-  <li>Way Back</li>
-  <li>Goosebumps ft. Kendrick Lamar</li>
-  <li>Through The Late Night ft. Kid Cudi</li>
+  <li class="num">Way Back</li>
+  <li class="num">Goosebumps ft. Kendrick Lamar</li>
+  <li class="num">Through The Late Night ft. Kid Cudi</li>
 </ol>  </p>
   </div>
       <div class="column" style="background-color:#bbb;">
         <h2>Astroworld</h2>
     <p><ol>
-  <li>SKELETONS ft. The Weeknd</li>
-  <li>R.I.P. SCREW ft. Swae Lee</li>
+  <li class="num">SKELETONS ft. The Weeknd</li>
+  <li class="num">R.I.P. SCREW ft. Swae Lee</li>
   <li>HOUSTONFORNICATION</li>
 </ol>  </p>
 </div>
@@ -146,7 +140,3 @@ li a.active {
   <input type="radio" name="school" value="no"> no <br>
   <input type="submit">
 </form> 
-
-</body>
-</html>
-</head>
